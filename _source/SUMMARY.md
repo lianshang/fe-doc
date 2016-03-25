@@ -23,3 +23,7 @@
 * [景景](jj/about.md)
 
     * [如何学好设计模式](jj/how-to-learn-design_pattern.md)
+
+* [红豆](zhd/about.md)
+
+    * [如何做好项目总结](zhd/how-to-make-project-summary.md)
