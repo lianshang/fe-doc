@@ -67,7 +67,7 @@ git clone [url]
 ### 4. 提交修改
 
 有了项目，假如我们现在在项目中做了修改，会如何呢？我们先了解几个概念。地仓库由 Git维护的三棵“树”组成。第一个是你的工作目录，它持有实际文件；第二个是缓存区（Index），它像个缓存区域，临时保存你的改动；最后是HEAD，指向你最近一次提交后的结果。如图：
-![](../images/git-start-edit.png)
+![](https://hycugb.gitbooks.io/learning-notes/content/images/git-start-edit.png)
 我们如果对项目的文件进行了增删改等一系列操作，产生了文件的差异，则Git会将文件标记为modified（新增文件标记为new file；删除文件标记为deleted），此时这些文件就处于暂存状态。这时我们可以开始学习一个重要的相关命令。
 ```shell
 git status
@@ -127,7 +127,7 @@ git branch
 git branch <分支名>
 ```
 比如，我们可以通过```git branch testing```来创建一个名为testing的分支。此时具有master和testing两个分支。如图：
-![](../images/git-start-newbranch.png)
+![](https://hycugb.gitbooks.io/learning-notes/content/images/git-start-newbranch.png)
 有了多个分支，我们就可以通过
 ```shell
 git checkout <分支名>
@@ -135,7 +135,7 @@ git checkout <分支名>
 来切换到对应的分支名下。
 
 Git中有个名为 HEAD 的特殊指针，它能指向当前分支。如，当我们切换到testing分支下，就如下图所示：
-![](../images/git-start-checkout.png)
+![](https://hycugb.gitbooks.io/learning-notes/content/images/git-start-checkout.png)
 用```git branch```命令查看，就能发现当前分支前有“*”号标记。
 ```shell
 $ git branch
