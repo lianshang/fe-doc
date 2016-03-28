@@ -30,9 +30,9 @@ jquery是一个实用工具，能理解这一句话很重要，也是学习jquer
 ## 4、勤动手
 再好的计划不去执行也只是一个计划，也就想想而已了。特别是jquery的学习，特别需要自己动手测试一个个的API，我在学习的时候制作了一些测试页面，也可以使用这种方式。
 
-文档操作部分：http://sandbox.runjs.cn/show/low0uchl
-callbacks实现观察者：http://sandbox.runjs.cn/show/boc2cwco
-jquery选择器：http://sandbox.runjs.cn/show/c3umu9ik
+* 文档操作部分：http://sandbox.runjs.cn/show/low0uchl
+* callbacks实现观察者：http://sandbox.runjs.cn/show/boc2cwco
+* jquery选择器：http://sandbox.runjs.cn/show/c3umu9ik
 
 ![pic](http://7mj4a6.com1.z0.glb.clouddn.com/20160325094316836.png)
 

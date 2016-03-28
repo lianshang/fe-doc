@@ -3,7 +3,7 @@
 * [友存](yyc/about.md)
 
     * [开发环境配置](yyc/ide.md)
-    * [如何学好jQuery](yyc/how-to-learn-jquery.md)
+    * [我的jQuery学习笔记](yyc/how-to-learn-jquery.md)
 
 * [黄毅](hy/about.md)
 
