@@ -41,7 +41,7 @@
 
 * [兆野](szy/about.md)
 
-    * [如何做好串讲](zhd/better-speech.md)
+    * [如何做好串讲](szy/better-speech.md)
 
 * [补充内容](extra/about.md)
 
