@@ -94,7 +94,9 @@
 参考链接：[linux 如何改变文件属性与权限](http://www.cnblogs.com/yangjinjin/p/3165076.html)
 
 > 拓展提高：
+
 > 书籍：《鸟哥的linux私房菜》
+
 > 网址：[Linux入门教程](http://www.92csz.com/study/linux/)
 
 ### 三、搭建环境
