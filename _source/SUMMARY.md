@@ -33,7 +33,7 @@
 
     * [新人前两周任务](ss/tasks-of-first-two-weeks-for-new-comer.md)
     * [项目上线流程](ss/launch-process.md)
-    * [项目开发流程](ss/project-development-process)
+    * [项目开发流程](ss/project-development-process.md)
 
 
 * [海鹏](zhp/about.md)
