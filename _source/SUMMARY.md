@@ -4,6 +4,7 @@
 
     * [开发环境配置](yyc/ide.md)
     * [我的jQuery学习笔记](yyc/how-to-learn-jquery.md)
+    * [如何做一份周报](yyc/weekly-report.md)
 
 * [黄毅](hy/about.md)
 
