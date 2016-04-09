@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>丹妮 | lsh-doc</title>
+        <title>分支开发流程 | lsh-doc</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.6.7">
@@ -37,10 +37,10 @@
         
     
     
-    <link rel="next" href="../mdn/how-to-write-daily-plan.html" />
+    <link rel="next" href="../szy/about.html" />
     
     
-    <link rel="prev" href="../wmx/my-study-method.html" />
+    <link rel="prev" href="../zhp/about.html" />
     
 
         
@@ -49,9 +49,9 @@
         
         
     <div class="book"
-        data-level="4"
-        data-chapter-title="丹妮"
-        data-filepath="mdn/about.md"
+        data-level="8.1"
+        data-chapter-title="分支开发流程"
+        data-filepath="zhp/branch-development-process.md"
         data-basepath=".."
         data-revision="Sat Apr 09 2016 12:30:50 GMT+0800 (CST)"
         data-innerlanguage="">
@@ -257,7 +257,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="4" data-path="mdn/about.html">
+        <li class="chapter " data-level="4" data-path="mdn/about.html">
             
                 
                     <a href="../mdn/about.html">
@@ -462,7 +462,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="8.1" data-path="zhp/branch-development-process.html">
+        <li class="chapter active" data-level="8.1" data-path="zhp/branch-development-process.html">
             
                 
                     <a href="../zhp/branch-development-process.html">
@@ -614,7 +614,70 @@
                 
                     <section class="normal" id="section-">
                     
-                        
+                        <h1 id="&#x5206;&#x652F;&#x5F00;&#x53D1;&#x6D41;&#x7A0B;">&#x5206;&#x652F;&#x5F00;&#x53D1;&#x6D41;&#x7A0B;</h1>
+<p>&#x9879;&#x76EE;&#x4EE3;&#x7801;&#x4FDD;&#x5B58;&#x5728;<code>github</code>&#x4E0A;&#xFF0C;&#x672C;&#x5730;&#x6240;&#x4F7F;&#x7528;&#x7684;&#x7248;&#x672C;&#x7BA1;&#x7406;&#x5DE5;&#x5177;&#x662F;<code>git</code>&#x3002;</p>
+<p>&#x4EE3;&#x7801;&#x7684;&#x4E3B;&#x8981;&#x5206;&#x652F;&#x6709;<code>master</code>&#xFF0C;<code>dev</code>&#x4E24;&#x4E2A;&#xFF0C;<code>master</code>&#x4F5C;&#x4E3A;&#x4E0A;&#x7EBF;&#x540E;&#x6700;&#x7A33;&#x5B9A;&#xFF0C;&#x6700;&#x65B0;&#x7684;&#x4EE3;&#x7801;&#x7248;&#x672C;&#xFF0C;<code>dev</code>&#x4F5C;&#x4E3A;&#x51C6;&#x4E0A;&#x7EBF;&#x5206;&#x652F;&#xFF0C;&#x8FD9;&#x4E24;&#x4E2A;&#x662F;&#x5E38;&#x9A7B;&#x5206;&#x652F;&#x3002;&#x9664;&#x4E86;&#x4E0A;&#x7EBF;&#xFF0C;&#x8FD9;&#x4E24;&#x4E2A;&#x5206;&#x652F;&#x4E0D;&#x505A;&#x4F7F;&#x7528;&#x3002;</p>
+<p>&#x6BCF;&#x6B21;&#x8FDB;&#x884C;&#x5F00;&#x53D1;&#x65F6;&#xFF0C;&#x90FD;&#x5E94;&#x4ECE;<code>dev</code>&#x4E0A;&#x5F00;&#x8F9F;&#x65B0;&#x7684;&#x529F;&#x80FD;&#x5206;&#x652F;&#xFF0C;&#x6BD4;&#x5982;&#x5206;&#x652F;<code>newbranch</code>&#x3002;&#x5728; <code>newbranch</code>&#x4E0A;&#x8FDB;&#x884C;&#x529F;&#x80FD;&#x7684;&#x5F00;&#x53D1;&#xFF0C;&#x8C03;&#x8BD5;&#x3002;</p>
+<h3 id="&#x6B65;&#x9AA4;&#xFF1A;">&#x6B65;&#x9AA4;&#xFF1A;</h3>
+<ol>
+<li><p>&#x5F00;&#x53D1;&#x524D;&#x660E;&#x786E;&#x9700;&#x6C42;&#xFF0C;&#x9700;&#x6C42;&#x5B9A;&#x4E0B;&#x6765;&#x4E4B;&#x524D;&#x4F1A;&#x6709;&#x201C;&#x9700;&#x6C42;&#x8BC4;&#x5BA1;&#x4F1A;&#x8BAE;&#x201D;&#xFF0C;&#x6240;&#x6709;&#x53C2;&#x4E0E;&#x672C;&#x6B21;&#x5F00;&#x53D1;&#x7684;&#x4EBA;&#x5458;&#x5747;&#x8981;&#x51FA;&#x5E2D;&#xFF0C;&#x4E00;&#x8D77;&#x8BA8;&#x8BBA;&#x9700;&#x6C42;&#x7684;&#x5408;&#x7406;&#x6027;&#xFF0C;&#x89E3;&#x7B54;&#x5F00;&#x53D1;&#x4E2D;&#x53EF;&#x80FD;&#x9047;&#x5230;&#x7684;&#x7591;&#x95EE;&#x3002;</p>
+</li>
+<li><p>&#x9700;&#x6C42;&#x660E;&#x786E;&#x540E;&#xFF0C;&#x5148;&#x8BC4;&#x4F30;&#x5DE5;&#x4F5C;&#x91CF;&#xFF0C;&#x7ED9;&#x51FA;&#x81EA;&#x5DF1;&#x7684;&#x6392;&#x671F;&#xFF0C;&#x8FD9;&#x4E2A;&#x65F6;&#x5019;&#x53EA;&#x8981;&#x8003;&#x8651;&#x81EA;&#x5DF1;&#x7684;&#x5F00;&#x53D1;&#x65F6;&#x95F4;&#x5C31;&#x597D;&#xFF0C;&#x4E00;&#x5B9A;&#x8981;&#x5408;&#x7406;&#xFF0C;&#x6709;&#x5FC5;&#x8981;&#x8981;&#x7559;&#x51FA;<code>buffer</code>&#xFF08;&#x7F13;&#x51B2;&#x65F6;&#x95F4;&#xFF09;&#xFF0C;&#x540E;&#x7AEF;&#x7ED9;&#x51FA;&#x6392;&#x671F;&#xFF0C;&#x6D4B;&#x8BD5;&#x4EBA;&#x5458;&#x7ED9;&#x51FA;&#x6392;&#x671F;&#xFF0C;PM&#x7ED9;&#x51FA;&#x63D0;&#x6D4B;&#x65F6;&#x95F4;&#x548C;&#x4E0A;&#x7EBF;&#x65F6;&#x95F4;&#x3002;</p>
+</li>
+<li><p>&#x8FDB;&#x884C;&#x5F00;&#x53D1;&#xFF0C;&#x9996;&#x5148;&#x672C;&#x5730;&#x5207;&#x6362;&#x81F3;<code>dev</code>&#x5206;&#x652F;&#xFF0C;&#x4F7F;&#x672C;&#x5730;<code>dev</code>&#x5206;&#x652F;&#x548C;&#x7EBF;&#x4E0A;&#x4EE3;&#x7801;&#x540C;&#x6B65;&#xFF0C;&#x6267;&#x884C;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code>git pull
+</code></pre></li>
+<li><p>&#x66F4;&#x65B0;&#x672C;&#x5730;dev&#x5206;&#x652F;&#x540E;&#xFF0C;&#x65B0;&#x5EFA;&#x5206;&#x652F;&#xFF0C;&#x7528;&#x4E8E;&#x65B0;&#x9700;&#x6C42;&#x7684;&#x5F00;&#x53D1;&#xFF0C;&#x6267;&#x884C;</p>
+<pre><code>git checkout -b newbranch
+</code></pre><p>&#x6216;&#x8005;</p>
+<pre><code>git branch newbranch&#xFF1B;
+</code></pre></li>
+<li><p>&#x73B0;&#x5728;&#x53EF;&#x4EE5;&#x5728;<code>newbranch</code>&#x4E0A;&#x8FDB;&#x884C;&#x5F00;&#x53D1;&#x4E86;&#xFF0C;&#x5F00;&#x53D1;&#x8FC7;&#x7A0B;&#x4E2D;&#x6BCF;&#x6B21;&#x63D0;&#x4EA4;&#x5230;&#x8FDC;&#x7A0B;&#xFF0C;&#x90FD;&#x8981;&#x786E;&#x8BA4;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x5230;&#x5176;&#x4ED6;&#x5206;&#x652F;&#xFF0C;&#x4E3B;&#x8981;&#x662F;&#x4E3A;&#x4E86;&#x9632;&#x6B62;<code>push</code>&#x5230;&#x5176;&#x4ED6;&#x5206;&#x652F;&#x3002;&#x5F00;&#x53D1;&#x8FC7;&#x7A0B;&#x4E2D;&#x53EF;&#x4EE5;&#x4E0D;&#x505A;<code>newbranch</code>&#x7684;&#x4EFB;&#x4F55;&#x66F4;&#x65B0;&#xFF08;&#x4E0D;&#x5408;&#x5E76;&#x4EFB;&#x4F55;&#x5206;&#x652F;&#xFF09;&#xFF0C;&#x6700;&#x540E;&#x5F00;&#x53D1;&#x5B8C;&#x6BD5;&#x540E;&#x4E00;&#x8D77;<code>merge dev</code>&#x3002;&#x5F00;&#x53D1;&#x8FC7;&#x7A0B;&#x4E2D;&#x8FDB;&#x884C;&#x81EA;&#x6D4B;&#x3002;</p>
+</li>
+<li><p>&#x672C;&#x6B21;&#x9700;&#x6C42;&#x5F00;&#x53D1;&#x5B8C;&#x6210;&#x540E;&#xFF0C;&#x9700;&#x8981;&#x5C06;<code>newbranch</code>&#x66F4;&#x65B0;&#x81F3;&#x6700;&#x65B0;&#xFF0C;&#x5207;&#x6362;&#x81F3;&#x672C;&#x5730;<code>dev</code>&#x5206;&#x652F;&#xFF1A;</p>
+<pre><code>git checkout dev
+</code></pre></li>
+<li><p>&#x6B64;&#x65F6;&#x9700;&#x8981;&#x66F4;&#x65B0;&#x672C;&#x5730;&#x7684;dev&#x5206;&#x652F;&#xFF0C;&#x4F7F;&#x5176;&#x4E0E;&#x7EBF;&#x4E0A;&#x4EE3;&#x7801;&#x540C;&#x6B65;&#xFF0C;&#x9996;&#x5148;&#x5148;&#x786E;&#x8BA4;&#x8FDC;&#x7A0B;dev&#x5206;&#x652F;&#x5F53;&#x524D;&#x662F;&#x4E0E;&#x7EBF;&#x4E0A;&#x540C;&#x6B65;&#x7684;&#x6700;&#x65B0;&#x4EE3;&#x7801;&#xFF0C;&#x6267;&#x884C;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code>git pull
+</code></pre></li>
+<li><p>&#x4E0A;&#x4E00;&#x6B65;&#x5B8C;&#x6210;&#xFF0C;&#x76EE;&#x524D;&#x672C;&#x5730;dev&#x5206;&#x652F;&#x4E3A;&#x6700;&#x65B0;&#xFF0C;&#x7136;&#x540E;&#x8981;&#x5C06;&#x6700;&#x65B0;&#x7684;&#x4EE3;&#x7801;dev&#x4E0E;&#x81EA;&#x5DF1;&#x5F00;&#x53D1;&#x7684;&#x529F;&#x80FD;&#x5206;&#x652F;newbranch&#x5408;&#x5E76;&#xFF0C;&#x4E3A;&#x786E;&#x4FDD;&#x5408;&#x5E76;&#x8FC7;&#x7A0B;&#x4E2D;&#x6CA1;&#x6709;&#x51B2;&#x7A81;&#xFF0C;&#x6700;&#x597D;&#x5148;&#x5C06;dev&#x7684;&#x4EE3;&#x7801;&#x5408;&#x5E76;&#x5230;newbranch&#x4E0A;&#xFF0C;&#x5207;&#x6362;&#x81F3;newbranch&#x5206;&#x652F;&#xFF0C;&#x6267;&#x884C;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code>git checkout newbranch
+</code></pre></li>
+<li><p>&#x5C06;dev&#x5408;&#x5E76;&#x5230;new branch&#x4E0A;&#xFF0C;&#x5728;newbranch&#x4E0A;&#x6267;&#x884C;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code>git merge dev
+</code></pre></li>
+<li><p>&#x4E0A;&#x4E00;&#x6B65;&#x6267;&#x884C;&#x5B8C;&#x53EF;&#x80FD;&#x4F1A;&#x6709;&#x51B2;&#x7A81;&#xFF0C;&#x539F;&#x56E0;&#x662F;&#x66F4;&#x65B0;&#x7684;&#x5185;&#x5BB9;&#x548C;&#x672C;&#x6B21;&#x5F00;&#x53D1;&#x7684;&#x5185;&#x5BB9;&#x5728;&#x540C;&#x4E00;&#x4E2A;&#x4F4D;&#x7F6E;&#xFF08;&#x540C;&#x4E00;&#x6587;&#x4EF6;&#x540C;&#x4E00;&#x884C;&#xFF09;&#xFF0C;&#x6B64;&#x65F6;&#x9700;&#x8981;&#x624B;&#x52A8;&#x6253;&#x5F00;&#x90A3;&#x4E9B;&#x51B2;&#x7A81;&#x6587;&#x4EF6;&#xFF0C;&#x8FDB;&#x884C;&#x4EE3;&#x7801;&#x7684;&#x5408;&#x5E76;&#xFF0C;&#x5224;&#x65AD;&#x54EA;&#x4E9B;&#x4EE3;&#x7801;&#x662F;&#x8981;&#x4FDD;&#x7559;&#x7684;&#xFF0C;&#x54EA;&#x4E9B;&#x662F;&#x9700;&#x8981;&#x5220;&#x9664;&#x7684;&#x3002;</p>
+</li>
+<li><p>&#x66F4;&#x65B0;newbranch&#x5B8C;&#x6210;&#x540E;&#xFF0C;&#x9700;&#x8981;&#x518D;&#x6B21;&#x6D4B;&#x8BD5;&#x4E00;&#x4E0B;&#xFF0C;&#x81EA;&#x5DF1;&#x5F00;&#x53D1;&#x7684;&#x529F;&#x80FD;&#x662F;&#x5426;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#xFF0C;&#x5BF9;&#x4EE5;&#x524D;&#x7684;&#x529F;&#x80FD;&#x662F;&#x5426;&#x6709;&#x5F71;&#x54CD;&#xFF0C;&#x6CA1;&#x6709;&#x95EE;&#x9898;&#x540E;&#xFF0C;&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x63D0;&#x6D4B;&#x3002;</p>
+</li>
+<li><p>&#x9996;&#x5148;&#x5207;&#x6362;&#x81F3;&#x672C;&#x5730;dev&#x5206;&#x652F;&#xFF0C;&#x5C06;newbranch&#x5206;&#x652F;&#x5408;&#x5E76;&#x5230;dev&#x5206;&#x652F;&#xFF08;&#x7406;&#x8BBA;&#x4E0A;&#x6B64;&#x65F6;&#x4E0D;&#x5E94;&#x8BE5;&#x5B58;&#x5728;&#x4EE3;&#x7801;&#x51B2;&#x7A81;&#xFF09;&#xFF0C;&#x6267;&#x884C;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code>git merge newbranch
+</code></pre></li>
+<li><p>dev&#x5408;&#x5E76;&#x65E0;&#x8BEF;&#x540E;&#xFF0C;&#x51C6;&#x5907;&#x63A8;&#x5230;&#x6D4B;&#x8BD5;&#x73AF;&#x5883;&#xFF08;qa&#xFF09;&#xFF0C;&#x4EA4;&#x7ED9;&#x6D4B;&#x8BD5;&#x4EBA;&#x5458;&#x6D4B;&#x8BD5;&#xFF0C;&#x518D;&#x6B21;&#x4E4B;&#x524D;&#x9700;&#x8981;&#x7FA4;&#x91CC;&#x53D1;&#x58F0;&#x660E;&#xFF0C;&#x8BF7;&#x6C42;&#x5360;&#x7528;qa&#xFF08;&#x6D4B;&#x8BD5;&#xFF09;&#x73AF;&#x5883;&#xFF0C;&#x8FD9;&#x662F;&#x4E3A;&#x4E86;&#x9632;&#x6B62;&#x6709;&#x4EBA;&#x5728;&#x4F7F;&#x7528;&#x6D4B;&#x8BD5;&#x73AF;&#x5883;&#xFF0C;&#x5982;&#x679C;&#x8D38;&#x7136;&#x53D1;&#x5E03;&#x9879;&#x76EE;&#x5230;qa&#x73AF;&#x5883;&#xFF0C;&#x5F88;&#x5BB9;&#x6613;&#x5C31;&#x5F71;&#x54CD;&#x4E86;&#x522B;&#x4EBA;&#x7684;&#x6D4B;&#x8BD5;&#x3002;&#x5F53;&#x5141;&#x8BB8;&#x5360;&#x7528;&#x6D4B;&#x8BD5;&#x73AF;&#x5883;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x518D;&#x5C06;dev&#x63A8;&#x5230;qa&#x73AF;&#x5883;&#x6D4B;&#x8BD5;&#x3002;</p>
+</li>
+<li><p>&#x63A8;&#x5230;qa&#x73AF;&#x5883;&#x540E;&#xFF0C;&#x524D;&#x7AEF;&#xFF0C;&#x540E;&#x7AEF;&#xFF0C;PM&#xFF0C;&#x6D4B;&#x8BD5;&#x4EBA;&#x5458;&#x8FDB;&#x884C;&#x6D4B;&#x8BD5;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x63D0;&#x6D4B;&#xFF0C;&#x6B64;&#x65F6;&#x5982;&#x679C;&#x6709;&#x8F83;&#x5C0F;&#x7684;&#x6539;&#x52A8;&#x7684;&#x8BDD;&#xFF0C;&#x53EF;&#x4EE5;&#x518D;dev&#x5206;&#x652F;&#x4E0A;&#x8FDB;&#x884C;&#x4FEE;&#x6539;&#x3002;</p>
+</li>
+<li><p>&#x6D4B;&#x8BD5;&#x65E0;&#x8BEF;&#x540E;&#xFF0C;&#x5C06;dev&#x63A8;&#x9001;&#x5230;&#x8FDC;&#x7A0B;dev&#x5206;&#x652F;&#xFF1A;</p>
+<pre><code>git push origin dev
+</code></pre></li>
+<li><p>&#x4E0A;&#x7EBF;&#x3002;</p>
+</li>
+<li><p>&#x4E0A;&#x7EBF;&#x540E;&#x4EE3;&#x7801;&#x56DE;&#x5F52;&#xFF0C;&#x6240;&#x6709;&#x53C2;&#x4E0E;&#x5F00;&#x53D1;&#x4EBA;&#x5458;&#x786E;&#x8BA4;&#x7EBF;&#x4E0A;&#x65E0;&#x8BEF;&#x3002;</p>
+</li>
+<li><p>&#x5F53;&#x786E;&#x8BA4;&#x4E0D;&#x518D;&#x8FDB;&#x884C;&#x66F4;&#x6539;&#xFF0C;dev&#x4E0D;&#x518D;&#x6539;&#x52A8;&#x65F6;&#xFF0C;&#x5408;&#x5E76;master&#x5206;&#x652F;&#xFF0C;&#x5148;&#x5207;&#x6362;&#x81F3;&#x672C;&#x5730;master&#x5206;&#x652F;&#xFF1A;</p>
+<pre><code>git checkout master
+</code></pre></li>
+<li><p>&#x5207;&#x6362;&#x540E;&#xFF0C;master&#x5408;&#x5E76;&#x5206;&#x652F;dev&#xFF1A;</p>
+<pre><code>git merge dev
+</code></pre></li>
+<li><p>&#x5408;&#x5E76;&#x6210;&#x529F;&#x540E;&#xFF0C;&#x5C06;master&#x63A8;&#x5230;&#x8FDC;&#x7A0B;&#xFF1A;</p>
+<pre><code>git push
+</code></pre></li>
+</ol>
+<p>&#x6B64;&#x6B21;&#x5F00;&#x53D1;&#x7ED3;&#x675F;&#xFF0C;&#x5728;&#x4E0D;&#x9700;&#x8981;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x53EF;&#x4EE5;&#x9009;&#x62E9;&#x5220;&#x9664;&#x529F;&#x80FD;&#x5206;&#x652F;<code>newbranch</code>&#x4E86;&#x3002;</p>
+<p>&#x5982;&#x679C;&#x5BF9;&#x4E0A;&#x9762;&#x6D41;&#x7A0B;&#x4E0D;&#x6E05;&#x6670;&#xFF0C;&#x53EF;&#x4EE5;&#x53C2;&#x7167;&#x4E0B;&#x9762;&#x9644;&#x4EF6;&#x4E2D;&#x7684;&#x6D41;&#x7A0B;&#x56FE;&#x3002;</p>
+<p><img src="http://7mj4a6.com1.z0.glb.clouddn.com/2016040104312612.png" alt="&#x5206;&#x652F;&#x5F00;&#x53D1;&#x6D41;&#x7A0B;&#x56FE;"></p>
+
                     
                     </section>
                 
@@ -624,10 +687,10 @@
         </div>
 
         
-        <a href="../wmx/my-study-method.html" class="navigation navigation-prev " aria-label="Previous page: 学霸的学习方法总结"><i class="fa fa-angle-left"></i></a>
+        <a href="../zhp/about.html" class="navigation navigation-prev " aria-label="Previous page: 海鹏"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="../mdn/how-to-write-daily-plan.html" class="navigation navigation-next " aria-label="Next page: 如何写好每日总结和计划"><i class="fa fa-angle-right"></i></a>
+        <a href="../szy/about.html" class="navigation navigation-next " aria-label="Next page: 兆野"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
