@@ -45,6 +45,7 @@
 * [兆野](szy/about.md)
 
     * [如何做好串讲](szy/better-speech.md)
+    * [上线流程](szy/launch-process.md)
 
 * [补充内容](extra/about.md)
 
