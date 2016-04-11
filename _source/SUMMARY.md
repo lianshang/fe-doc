@@ -29,6 +29,7 @@
 * [红豆](zhd/about.md)
 
     * [如何做好项目总结](zhd/how-to-make-project-summary.md)
+    * [jQuery学习方法总结](zhd/how-to-learn-jquery.md)
 
 * [史硕](ss/about.md)
 
