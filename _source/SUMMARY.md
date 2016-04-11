@@ -11,6 +11,7 @@
     * [如何配置Mail邮箱](hy/setup-mail.md)
     * [如何学好Git](hy/how-to-learn-Git.md)
     * [如何学好FIS](hy/how-to-learn-fis.md)
+    * [代码流转过程关系](hy/code-flue.md)
 
 * [鸣旭](wmx/about.md)
 
