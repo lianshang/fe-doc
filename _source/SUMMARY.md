@@ -22,6 +22,7 @@
 
     * [如何写好每日总结和计划](mdn/how-to-write-daily-plan.md)
     * [问题定位经验](mdn/my-experience-of-locating-bugs.md)
+    * [优供商城介绍](mdn/lsh-yg.md)
 
 * [景景](jj/about.md)
 
@@ -37,11 +38,13 @@
     * [新人前两周任务](ss/tasks-of-first-two-weeks-for-new-comer.md)
     * [项目上线流程](ss/launch-process.md)
     * [项目开发流程](ss/project-development-process.md)
+    * [招商平台介绍](ss/Merchants-platform.md)
 
 
 * [海鹏](zhp/about.md)
 
     * [分支开发流程](zhp/branch-development-process.md)
+    * [TMS系统介绍](zhp/tms.md)
 
 
 * [兆野](szy/about.md)
