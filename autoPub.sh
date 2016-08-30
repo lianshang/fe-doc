@@ -4,35 +4,31 @@
 # Created At: 2016.8.30
 
 echo "autoPub start"
+echo "该脚本会创建一个新分支，以后再该分支得到所有的html文件"
 
-echo "请输入你的名字："
+read -p "请输入新分支名称：" branchName
 
-# 变量定义
-# 变量名与值之间不能有空格
-a="heiheihei"
+if [ ! "$branchName" = "" ]
+then
+    
+    echo "$branchName"
 
-branchName="gh-pages"
+    # 1. 切换到新分支
+    switchBrand="git checkout -b ${branchName:-gh-pages}"
 
-# 变量销毁
-unset a
+    # 2. 将_book文件夹内的文件全部移除来
+    moveHTMLToOuter="mv _book/* ./"
 
-# 1. 切换到新分支
-cmd_1="git checkout $branchName"
-$cmd_1
+    # 3. 将_book、_source文件夹删除
+    RmDir="rm -rfi _book _source"
 
-# 2. 将_book文件夹内的文件全部移除来
-cmd_2="mv _book/* ./"
-$cmd_2
+    # 4. git 添加
+    GitAdd="git add ."
+    GitCommit='git commit -m "f"'
 
-# 3. 将_book文件夹删除
-cmd_3="rmdir _book"
-$cmd_3
-
-# 4. 进入_source，删除全部
-cmd_4="cd _source"
-$cmd_4
-
-# 5.
-
-# 获取用户输入的值
-# read name
+    # 执行
+    $switchBrand && $moveHTMLToOuter && $RmDir && $GitAdd && $GitCommit
+    echo "执行git push origin $branchName 来提交代码把！"
+else 
+    echo "分支名为空！"
+fi
