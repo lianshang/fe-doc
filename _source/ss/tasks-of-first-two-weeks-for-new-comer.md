@@ -155,7 +155,7 @@
 
 #### 7.编辑器：
 
-[hpStorm（推荐）](http://www.jetbrains.com/phpstorm/) --> [注册码](http://idea.lanyus.com/)
+[phpStorm（推荐）](http://www.jetbrains.com/phpstorm/) --> [注册码](http://idea.lanyus.com/)
 
 #### 8.虚拟机
 
@@ -298,3 +298,5 @@ TMS 系统的设计初衷，就是提高调度的工作效率，提升用户的�
 > tips：看流程前，同学们最好了解vim的基础操作
 
 > 流程
+
+
