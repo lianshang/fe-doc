@@ -9,7 +9,7 @@ echo "该脚本会删除${brandName}分支并重新创建"
 
 read -p "继续执行？(y/n)" going
 
-if [ ! "$going" = "y" ]
+if [ ! "$going" = "n" ]
 then
 
     echo "开始删除${brandName}分支"
