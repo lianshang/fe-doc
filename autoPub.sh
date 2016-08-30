@@ -3,23 +3,28 @@
 # Created By: Gavin
 # Created At: 2016.8.30
 
+brandName="gh-pages"
 echo "autoPub start"
-echo "该脚本会创建一个新分支，以后再该分支得到所有的html文件"
+echo "该脚本会删除${brandName}分支并重新创建"
 
-read -p "请输入新分支名称：" branchName
+read -p "继续执行？(y/n)" going
 
-if [ ! "$branchName" = "" ]
+if [ ! "$going" = "y" ]
 then
-    
-    echo "$branchName"
+
+    echo "开始删除${brandName}分支"
+    deleteGhPages="git branch -D ${brandName}"
+    $deleteGhPages
+    echo "删除${brandName}分支完成"
 
     # 1. 切换到新分支
-    switchBrand="git checkout -b ${branchName:-gh-pages}"
+    switchBrand="git checkout -b ${brandName}"
 
     # 2. 将_book文件夹内的文件全部移除来
     moveHTMLToOuter="mv _book/* ./"
 
     # 3. 将_book、_source文件夹删除
+    # 该步骤不进行也可以
     RmDir="rm -rfi _book _source"
 
     # 4. git 添加
@@ -28,7 +33,11 @@ then
 
     # 执行
     $switchBrand && $moveHTMLToOuter && $RmDir && $GitAdd && $GitCommit
-    echo "执行git push origin $branchName 来提交代码把！"
-else 
-    echo "分支名为空！"
+
+    # 代码提交
+    push="git push origin ${brandName} -f"
+    $push
+
+else
+    echo "脚本已取消"
 fi
