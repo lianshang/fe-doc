@@ -33,9 +33,9 @@
 
 **平台：**微信h5、ios、android
 
-**线上地址：**http://m.yougong.elianshang.com ［`账号：18369956016 密码：yangyoucun`］ *🙅备注：线上地址不可下单，不可注册！*
+**线上地址：**http://m.yougong.elianshang.com *备注：线上地址不可下单，不可注册！*
 
-**测试地址：**http://qa.market-h5.wmdev2.lsh123.com ［`账号：15901456230 密码：123456`］*备注：可自行注册*
+**测试地址：**http://qa.market-h5.wmdev2.lsh123.com *备注：自行注册*
 
 **主要负责人** @杨友存、@马丹妮
 
@@ -47,7 +47,7 @@
 
 **平台：**pc（目前不支持IE）
 
-**测试地址：**http://qa.market-mis-h5.wmdev2.lsh123.com ［`账号：admin@lsh123.com 密码：654321`］*备注：不可注册*
+**测试地址：**http://qa.market-mis-h5.wmdev2.lsh123.com *备注：不可注册，账号密码需联系下面负责人*
 
 **主要负责人** @周红豆、@李桂齐
 
@@ -65,9 +65,9 @@
 
 **功能：**展示业绩与任务，提高工作效率；提供辅助功能，优化办公流程
 
-**测试地址：** http://qa.market-sales-h5.wmdev2.lsh123.com/ ［`账号：wangxueqi01@lsh123.com 密码：18500557561`］
+**测试地址：** http://qa.market-sales-h5.wmdev2.lsh123.com/ *账号密码联系相关负责人*
 
-**线上地址：** http://xs.lshyg.cn/ ［`账号：wangxueqi01@lsh123.com 密码：18500557561`］
+**线上地址：** http://xs.lshyg.cn/ **不可注册！**
 
 **平台：**钉钉（嵌入钉钉使用）
 
