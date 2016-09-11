@@ -17,6 +17,9 @@
 
     * [如何学好less](wmx/how-to-learn-less.md)
     * [学霸的学习方法总结](wmx/my-study-method.md)
+    * [销售端图片上传功能调研结果](wmx/sales-platform/fixbug-picture-upload.md)
+    * [销售端近期版本变动汇总与项目交接总结](wmx/sales-platform/version-history.md)
+    * [销售端中反映出的单页应用回退问题思考](wmx/sales-platform/pages-back-in-spa.md)
 
 * [丹妮](mdn/about.md)
 
